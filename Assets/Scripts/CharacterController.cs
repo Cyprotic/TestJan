@@ -8,17 +8,14 @@ public class CharacterController : MonoBehaviour
     private int damage;
     [SerializeField]
     private Sprite characterSwap;
-    [SerializeField]
-    private ScriptableObjectCharacter scripableObject;
 
     // Start is called before the first frame update
     void Start()
     {
-        health = scripableObject.health;
-        damage = scripableObject.damage;
-        characterSwap = scripableObject.characterSwap;
+        health = UserPrefs.bundle.LoadAsset<ScriptableObjectCharacter>("Assets/DeathWing.asset").health;
+        damage = UserPrefs.bundle.LoadAsset<ScriptableObjectCharacter>("Assets/DeathWing.asset").damage;
+        characterSwap = UserPrefs.bundle.LoadAsset<ScriptableObjectCharacter>("Assets/DeathWing.asset").characterSwap;
 
-        
         this.gameObject.GetComponent<SpriteRenderer>().sprite = characterSwap;
     }
 }
