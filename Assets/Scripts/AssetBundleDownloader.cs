@@ -1,7 +1,6 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Networking;
-using UnityEngine.SceneManagement;
 
 public class AssetBundleDownloader : MonoBehaviour
 {
@@ -23,7 +22,6 @@ public class AssetBundleDownloader : MonoBehaviour
             AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(www);
             UserPrefs.bundle = bundle;
             Debug.Log(UserPrefs.bundle);
-            SceneManager.LoadScene("Game");
         }
     }
 }
