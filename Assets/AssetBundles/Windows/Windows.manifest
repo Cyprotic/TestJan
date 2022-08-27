@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2864594362
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: deathwing.card
+      Dependencies: {}
+    Info_1:
+      Name: characterdylan.card
+      Dependencies: {}

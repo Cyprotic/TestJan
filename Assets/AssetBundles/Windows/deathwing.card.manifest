@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2030534471
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c9c7b2f89bb49d9cc5f161dc0f7f071c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dfc7cde4e8c0e641a13e2abb94d559b9
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fb4898f1c00cb824e9d1bb48a22ee18e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/DeathWing.asset
+Dependencies: []

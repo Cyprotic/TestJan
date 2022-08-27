@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1575674966
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 214e1b758a83f6a43e0ef03654d5331e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dfc7cde4e8c0e641a13e2abb94d559b9
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fb4898f1c00cb824e9d1bb48a22ee18e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/CharacterDylan.asset
+Dependencies: []
