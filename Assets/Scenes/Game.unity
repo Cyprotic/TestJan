@@ -518,6 +518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 278067030}
+  difficulty: 1
 --- !u!4 &649301629
 Transform:
   m_ObjectHideFlags: 0
@@ -594,8 +595,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 761520751}
-  spawnTimer: 10
+  spawnTimer: 0
+  spawnTimerMax: 4
   enemy: {fileID: 4810331257136578143, guid: d4210e8120908674bbbb7dff78d5546f, type: 3}
+  gameManager: {fileID: 649301628}
 --- !u!4 &832034971
 Transform:
   m_ObjectHideFlags: 0
